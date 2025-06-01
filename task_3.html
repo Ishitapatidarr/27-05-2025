@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Star List</title>
+  <style>
+    ul {
+      list-style: none; /* Remove default bullets */
+      padding: 0;
+    }
+
+    li::before {
+      content: "★";       /* Unicode for solid star */
+      color: red;         /* Red star */
+      margin-right: 8px;  /* Space between star and text */
+    }
+  </style>
+</head>
+<body>
+
+  <ul>
+    <li>Hummus</li>
+    <li>Pita</li>
+    <li>Green salad</li>
+    <li>Halloumi</li>
+  </ul>
+
+</body>
+</html>
